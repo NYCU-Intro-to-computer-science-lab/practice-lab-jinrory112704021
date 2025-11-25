@@ -17,6 +17,8 @@ int calculation(int opcode,int num1, int num2){
 	}
 
 int main(){
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);
 	int opcode,num1,num2;
 	while(cin>>opcode>>num1>>num2){
 		int res = calculation(opcode,num1,num2);//要注意這一步!! 
